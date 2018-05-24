@@ -1,0 +1,290 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-12-08, 02:07:07
+    Author     : Magic
+*/
+
+@font-face {
+    font-family: Budhayanti;
+    src: url('../Fonts/Budhayanti.ttf');
+}
+@font-face {
+    font-family: Aramayka;
+    src: url('../Fonts/Emotional Rescue Personal Use.ttf');
+}
+@font-face {
+    font-family: abite;
+    src: url('../Fonts/ABITE.ttf');
+}
+
+.pageName{
+    font-family: "Budhayanti";
+}
+#pageIcon{
+    float: left;
+    display: inline;
+    width: 2em;
+    
+}
+
+body {
+    background: url('../resources/wallpaper7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+#welcomeSite {
+    background: url('../resources/wallpaper6.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 35em;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+#welcome ul {
+    list-style-type: none;
+    color: white;
+}
+#welcome li {
+    font-size: 2em;
+    font-family: 'Times New Roman';
+}
+#welcome img {
+    width: 1em;
+}
+
+#joinBtn{
+    background: #505051;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 23px 13px 23px;
+    margin-top: 10em;
+    margin-left: 40%;
+    text-decoration: none;
+    width: 6em;
+}
+#joinBtn a, a:hover, a:link, a:visited, a:active {
+    text-decoration: none;
+}
+#joinBtn:hover {
+    background: #505051;
+    background-image: -webkit-linear-gradient(top, #505051, #262627);
+    background-image: -moz-linear-gradient(top, #505051, #262627);
+    background-image: -ms-linear-gradient(top, #505051, #262627);
+    background-image: -o-linear-gradient(top, #505051, #262627);
+    background-image: linear-gradient(to bottom, #505051, #262627);
+    text-decoration: none;
+}
+
+#welcomeText{
+    color:   #d0d3d4 ;
+    font-family: "abite";
+    font-size: 4em;
+    text-align: right;
+}
+
+#aboutSite {
+    background: url('../resources/wallpaper7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 35em;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    color: white;
+}
+
+.booksaverForm{
+    margin-bottom: 1em;
+    color: #cc3333;
+    font-weight: bold;
+}
+
+.formTitle{
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    margin-left: 1em;
+    margin-right: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.LinksTab{
+    width:100%;
+}
+.LinksTab a{
+    color:  #787878;
+    font-weight: bold;
+}
+.LinksTab tr:hover, #LinksTab tr:focus{
+    background-color: #f7f7f7;
+}
+.LinksTab tr:hover a, #LinksTab tr:focus a{
+    color: #3b3b3b;
+}
+.LinksTab td{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+}
+.LinksTab .icon{
+    width: 10px;
+}
+.LinksTab .control{
+    width: 10%;
+}
+
+.LinksTab td .remove {
+    color: #787878;
+}
+.LinksTab td .remove:hover,
+.LinksTab td .remove:focus{
+    cursor: pointer;
+    color: #000000;
+}
+.LinksTab td .remove:active{
+    cursor: pointer;
+    color: red;
+}
+
+.LinksTab td .edit {
+    color: #787878;
+}
+.LinksTab td .edit:hover,
+.LinksTab td .edit:focus{
+    cursor: pointer;
+    color: #000000;
+}
+.LinksTab td .edit:active{
+    cursor: pointer;
+    color: green;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222222;
+    padding: 0.1em 5em 0.1em 5em;
+    color: #969696;
+}
+
+/* Modal Content */
+.modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: auto;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.informationsTitle{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #969696;
+}
+.informations{
+    border: 2px solid  #5f5f5f ;
+    border-radius: 5px;
+    background-color: #b1b1b1  ;
+    padding: 1em 3em;
+    margin-bottom: 2em;
+    margin-top: 0;
+    color: #222222;
+}
+
+.placementInfo{
+    font-size: 0.75em;
+    border: 1px solid #dddddd;
+    border-left: 2px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #eeeeee;
+    width: 100%;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    opacity: 0.8;
+}
+.placementInfo .folderName{
+    display: inline;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.placementInfo .backward_btn{
+    font-size: 1.5em;
+    margin-right: 1em;
+}
+
+.dataContainer{
+    background-color: #eeeeee;
+    padding: 1px 5px  5px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    height: 31em;
+    opacity: 0.8;
+}
+
+.divLine{
+    border-bottom: 1px solid  #d0d3d4 ;
+}
+
+.fastAddingLink,
+.fastAddingLink a,
+.fastAddingLink a:hover,
+.fastAddingLink a:focus{
+    color: black;
+    font-weight: bold;
+}
+
+.registerSeccessfulInfo{
+    background-color: #eeeeee;
+    margin-top: 2em;
+    padding: 1px 5px  5px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    overflow-y: auto; 
+    height: 3em;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 1em;
+    color: #c51d1d;
+}
+
+.reminderPass,
+.reminderPass a,
+.reminderPass a:focus{
+    font-size: 10px;
+    color: #222222;
+}
+.reminderPass a:hover{
+    color: #7a7a7a;
+}
+
+.errorImg{
+    background-repeat: no-repeat;
+    display: inline-bolck;
+    height: 25em;
+    width: 25em;
+    background-size: 25em 25em;
+    background-image: url('../resources/error.png');
+}
